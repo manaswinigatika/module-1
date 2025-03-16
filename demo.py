@@ -8,7 +8,7 @@ import numpy as np
 from sklearn.preprocessing import LabelEncoder
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://vishalcv:ccP2XVOJLM2br28R@riaapp.8ruib.mongodb.net/?ssl=true")
+client = MongoClient("mongodb+srv://gatikavinnivarma:uuQoNnIJECtLqyrq@cluster0.y0un9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # Initialize an empty DataFrame to store the data (you can later store it to a file or database)
 columns = ['customer_id', 'Preferred Cuisine', 'age', 'check_in_date', 'check_out_date']
@@ -179,4 +179,3 @@ if st.button("Submit Booking"):
 
     
     
-
